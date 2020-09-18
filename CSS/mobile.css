@@ -1,0 +1,61 @@
+@media (max-width:940px){
+    body{
+        background-image: url('../images/bg-pattern-top-mobile.svg'), url(../images/bg-pattern-bottom-mobile.svg);
+        background-position: top left, bottom right;
+        font-size: 1.5rem;
+}
+    html{
+        font-size: 60%;
+    }
+    /*contenter*/
+    .contenter{
+        max-width: 375px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .content{
+        display: block;
+        margin: 50px 70px;
+    }
+    .left{
+        width: 100%;
+    }
+    .content p{
+        width: 100%;
+     
+    }
+    .star{
+        display: block;
+        margin-left: 20px;
+    }
+    .rating-first, .rating-second, .rating-third{
+        margin-left: -250px;
+        margin-top: 30px;
+        text-align: center;
+        padding: 12px 0;
+        width: 330px;
+        height: 70px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        display: block;
+    }
+    .rating-third{
+        transform: translateX(-0px);
+    }
+    .rating-second{
+        transform: translateX(-0);
+    }
+
+    /*Text*/
+    .card{
+        display: block;
+        margin: 0 40px;
+        margin-bottom: 80px;
+    }
+    .card-colton, .card-anne, .card-irene{
+        height: 180px;
+    }
+    
+    
+}
